@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher1"
+        android:layout_width="fill_parent"
+        android:layout_height="116dip"
+        android:background="#ebeaea" >
+    </ImageSwitcher>
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    <View 
+        android:id="@+id/view1"
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:background="#b50202"
+        android:layout_weight="25"
+        />
+    <View 
+        android:layout_width="5dp"
+        android:layout_height="3dp"
+        android:background="#ffffff"
+       
+        />
+     <View 
+          android:id="@+id/view2"
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:background="#ebeaea"
+          android:layout_weight="25"
+        />
+       <View 
+        android:layout_width="5dp"
+        android:layout_height="3dp"
+        android:background="#ffffff"
+       
+        />
+      <View 
+           android:id="@+id/view3"
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:background="#ebeaea"
+          android:layout_weight="25"
+        />
+        <View 
+        android:layout_width="5dp"
+        android:layout_height="3dp"
+        android:background="#ffffff"
+       
+        />
+       <View 
+            android:id="@+id/view4"
+        android:layout_width="60dp"
+        android:layout_height="3dp"
+        android:background="#ebeaea"
+          android:layout_weight="25"
+        />
+    </LinearLayout>
+
+</LinearLayout>
